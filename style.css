@@ -1,3 +1,18 @@
 .navbar-brand img{
     width: 60px;
 }
+.submenu{
+    position: relative;
+}
+.submenu #cart{
+    display: none;
+}
+.submenu:hover #cart{
+    display: block;
+    position: absolute;
+    padding: 20px;
+    right: 0;
+}
+.submenu a{
+    text-decoration: none;
+}
